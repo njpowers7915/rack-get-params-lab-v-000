@@ -28,7 +28,7 @@ class Application
         resp.write "added #{item}"
         @@cart << item
       else
-        resp.write "Item does not exit"
+        resp.write "We don't have that item"
       end
     else
       resp.write "Path Not Found"
